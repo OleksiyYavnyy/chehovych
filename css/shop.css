@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Spirax');
 
 body {
-    background-color: #ffe0aa;
+    background-color: black;
     font-family: 'Spirax', cursive;
+    background-image: url("coffe.jpg");
 }
 
-h2 {
+h1 {
     text-align: center;
-    padding: 10px;
+    color: white;
+    
 }
