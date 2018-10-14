@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Spirax');
 
 body {
-    background-color: #ffe0aa;
+    background-image: url('../img/backgroud-coffee-beans.jpg');
     font-family: 'Spirax', cursive;
 }
 
 h2 {
     text-align: center;
+    color: white;
     padding: 10px;
 }
+
+p {
+    color: white;
+}
+
+.card-text {
+    color: black;
+}
+
+i {
+    color: white;
+}
+

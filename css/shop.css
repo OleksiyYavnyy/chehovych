@@ -1,13 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Spirax');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body {
-    background-color: black;
-    font-family: 'Spirax', cursive;
-    background-image: url("coffe.jpg");
+    font-family: 'Playfair Display', serif;
+    max-width: 1200px;
+    margin: auto;
 }
 
 h1 {
     text-align: center;
-    color: white;
-    
+
+}
+
+.product-card {
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 400px) {
+    .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 600px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
 }
