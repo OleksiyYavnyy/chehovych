@@ -4,6 +4,7 @@ body {
     font-family: 'Playfair Display', serif;
     max-width: 1200px;
     margin: auto;
+    background-image: url('../img/background.jpg');
 }
 
 h1 {
@@ -38,4 +39,9 @@ h1 {
 a {
     color: #000000;
     text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: large;
 }
