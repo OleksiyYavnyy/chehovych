@@ -34,7 +34,7 @@
                         <a class="nav-link smooth" href="#info">Інформація</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth" href="#">Побажання</a>
+                        <a class="nav-link smooth" href="#wish">Побажання</a>
                     </li>
                 </ul>
             </div>
@@ -105,15 +105,24 @@
             </section>
             <section id="info">
                 <h2>Інформація:</h2>
-                <p>Графік роботи: 8:29 - 21-00</p>
-                <p> 095 761 2419</p>
-                <p><em>м. Львів, вул. Героїв УПА 72</em></p>
+                <p><b>Графік роботи: 8:29 - 21-00</b></p>
+                <p><b>095 761 2419</b></p>
+                <p><b>м. Львів, вул. Героїв УПА 72</b></p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d909.8929868586562!2d23.9966205103848!3d49.83182161871071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add80647baa2b%3A0xd8ec65e094316fd1!2sChekhovych!5e0!3m2!1sru!2sua!4v1537963889985"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/chehovych/"><i class="fab fa-facebook-square fa-5x" style="color:black"></i></a>
+                    <a href="https://m.me/chehovych"><i class="fab fa-facebook-messenger fa-5x" style="color:black"></i></a>
+                    <a href="https://www.instagram.com/chehovych/"><i class="fab fa-instagram fa-5x" style="color:black"></i></a>
+                </div>
             </section>
             <section id="wish">
-            <h2>Побажання:</h2>
-             <form method="POST" action="https://formspree.io/oleksiyyavnyy@gmail.com">
-                <fieldset>
-                      <label>
+                <h2>Побажання:</h2>
+                <form method="POST" action="https://formspree.io/oleksiyyavnyy@gmail.com">
+                    <fieldset>
+                        <label>
                               Ім'я:
                             <input type="text" required>
                         </label>
@@ -131,15 +140,19 @@
                         <p>Ваші побажання:</p>
                         <textarea></textarea>
                         <br>
-                        <input type="submit" value="Надіслати">
+                        <button type="submit" class="btn btn-dark">Надіслати</button>
                     </fieldset>
                 </form>
-        </section>
+            </section>
         </main>
+        <footer>
+            <p>© 2018 Всі права захищено.</p>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
     <script src="js/smooth-scroll.js"></script>
 </body>
 </html>
